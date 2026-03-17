@@ -1,15 +1,8 @@
-# ✈️ Regional Turboprop Design Tool
+# AEROSIZER PRO — Regional Turboprop Design Tool
 
-This project is a Streamlit-based engineering tool for preliminary aircraft design using Breguet equations.
-
-## Features
-- Clean UI with styled Calculate button
-- Sensitivity analysis with Plotly interactive charts
-- Export results to professional PDF
-
-## Run locally
+Run locally:
 ```bash
-git clone https://github.com/yourusername/aircraft-design-tool.git
-cd aircraft-design-tool
+python -m venv venv
+source venv/bin/activate   # أو venv\Scripts\activate على Windows
 pip install -r requirements.txt
 streamlit run app.py
