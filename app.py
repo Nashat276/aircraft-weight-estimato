@@ -20,7 +20,7 @@ st.markdown("""
 
 # Hero Section
 st.title("✈️ Regional Turboprop Design Tool")
-st.subheader("Powered by Breguet Equations & Mission Profile")
+st.subheader("Based on Homework & Project Specs")
 
 # Sidebar Inputs
 st.sidebar.header("Mission Inputs")
@@ -54,4 +54,4 @@ if st.sidebar.button("⟳ Calculate"):
     # إخراج PDF
     if st.button("📄 Export PDF"):
         export_pdf(results, sens)
-        st.success("PDF Exported Successfully!")
+        st.success("📄 PDF Exported Successfully! Check Aircraft_Report.pdf")
