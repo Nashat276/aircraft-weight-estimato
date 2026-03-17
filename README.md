@@ -1,19 +1,15 @@
-# :earth_americas: GDP dashboard template
+# ✈️ Regional Turboprop Design Tool
 
-A simple Streamlit app showing the GDP of different countries in the world.
+This project is a Streamlit-based engineering tool for preliminary aircraft design using Breguet equations.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Features
+- Clean UI with styled Calculate button
+- Sensitivity analysis with Plotly interactive charts
+- Export results to professional PDF
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Run locally
+```bash
+git clone https://github.com/yourusername/aircraft-design-tool.git
+cd aircraft-design-tool
+pip install -r requirements.txt
+streamlit run app.py
